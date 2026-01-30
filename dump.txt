@@ -1,0 +1,196 @@
+--- Page 1 ---
+0: 6101-eviL
+1: 4.3V:noisreV
+2: 256421621003-SWSACSMAC
+3: Consolidated Account Summary
+4: As on 30-Jan-2026
+5: Email Id: tusharchopra123@gmail.com The Consolidated Account Summary is brought to you as an investor
+6: friendly initiative by CAMS and KFintech, and lists the balances and
+7: TUSHAR CHOPRA valuation of Mutual Funds including SIF in which you are holding
+8: investments.Theconsolidationhasbeencarriedoutbasedontheemailid
+9: enteredbyyou.IfyouhavenotenteredaPANNumberandiftheemailid
+10: HOUSE N0-2260,FIRST FLOOR HUDS
+11: iscommontoseveralmembersofyourfamily,thisAccountSummarywill
+12: NORTH WEST DELHI - 110009
+13: consolidate all those investments as well.
+14: Mobile: 8826784339
+15: If you find any folios missing from this consolidation, you have not
+16: registered your email id against those folios.
+17: This statement may not reflect the complete information on your DEMAT
+18: holdings. Please check with your DP for details on DEMAT holdings.
+19: Folio No. ISIN Scheme Name Cost Value Unit Balance NAV Date NAV Market Value Registrar
+20: (INR) (INR) (INR)
+21: 1047490530 INF209K01XA9 B303GZ - Aditya Birla Sun Life Medium 283,000.020 6,747.080 29-Jan-2026 45.7898 308,947.44 CAMS
+22: Term Plan - Growth-Direct Plan (Demat)
+23: 910217623824/0INF846K01Y39 128GCDGG - Axis Greater China Equity 5,100.000 435.132 29-Jan-2026 11.89 5,173.72 KFINTECH
+24: Fund of Fund Direct Growth
+25: 8164176/69 INF194KB1AL4 GD340 - Bandhan Small Cap Fund-Direct 1,000.000 20.908 29-Jan-2026 48.522 1,014.50 CAMS
+26: Plan-Growth (Demat)
+27: 10805637/04 INF740KA1TE9 D896 - DSP Multi Asset Allocation Fund - 10,100.000 606.067 29-Jan-2026 17.0750 10,348.59 CAMS
+28: Direct - Growth (Demat)
+29: 91043437454/0INF754K01OX5 118GFD1G - Edelweiss Gold and Silver ETF 100.000 2.395 29-Jan-2026 46.200 110.65 KFINTECH
+30: Fund of Fund Direct plan Growth
+31: 21961126/89 INF179K01WM1 HINNPT - HDFC Nifty 50 Index Fund - 575,000.000 2,570.287 29-Jan-2026 247.0812 635,069.60 CAMS
+32: Direct Plan (formerly HDFC Index Fund -
+33: Nifty Plan) (Demat)
+34: 21961126/89 INF179K01VK7 HCORGT - HDFC Focused Fund - Direct Plan 50,000.000 184.621 29-Jan-2026 266.946 49,283.84 CAMS
+35: - Growth Option (formerly HDFC Core and
+36: Satellite Fund) (Demat)
+37: 21961126/89 INF179K01WA6 HGFGT - HDFC Balanced Advantage Fund - 5,100.000 9.256 29-Jan-2026 570.940 5,284.62 CAMS
+38: Direct Plan - Growth Option (formerly
+39: HDFC Growth Fund, erstwhile HDFC
+40: Prudence Fund merged) (Demat)
+41: 22604965/36 INF109K012M7 P8189 - ICICI Prudential Nifty 50 Index 101,000.000 418.654 29-Jan-2026 267.0940 111,819.97 CAMS
+42: Fund - Direct Plan Growth (Non-Demat)
+43: 28764446/93 INF109K016L0 P8042 - ICICI Prudential Large Cap Fund 1,500.000 16.220 29-Jan-2026 123.52 2,003.49 CAMS
+44: (erstwhile Bluechip Fund) - Direct Plan -
+45: Growth (formerly ICICI Prudential Focused
+46: Bluechip Equity Fund) (Non-Demat)
+47: 31528522/07 INF109K016L0 P8042 - ICICI Prudential Large Cap Fund 257,000.000 2,214.692 29-Jan-2026 123.52 273,558.76 CAMS
+48: (erstwhile Bluechip Fund) - Direct Plan -
+49: Growth (formerly ICICI Prudential Focused
+50: Bluechip Equity Fund) (Non-Demat)
+51: 31528522/07 INF109K010A6 P8104 - ICICI Prudential Banking and PSU 41,605.000 1,234.801 29-Jan-2026 35.2277 43,499.20 CAMS
+52: Debt Fund - Direct Plan - Growth (Non
+53: -Demat)
+54: 39855900/29 INF109K010A6 P8104 - ICICI Prudential Banking and PSU 100,000.000 2,905.961 29-Jan-2026 35.2277 102,370.32 CAMS
+55: Debt Fund - Direct Plan - Growth (Demat)
+56: 15036040/81 INF174K01LT0 K123D - Kotak Midcap Fund- Direct Plan - 55,100.000 356.342 29-Jan-2026 152.913 54,489.32 CAMS
+57: Growth (Erstwhile Kotak Emerging Equity
+58: Scheme) (Demat)
+59: 15036040/81 INF174K01LA0 K134DD - Kotak Contra Fund - Direct Plan - 10,100.000 158.299 29-Jan-2026 64.656 10,234.98 CAMS
+60: IDCW# ( Erstwhile Kotak India EQ Contra
+61: Scheme) (Demat)
+62: 91059373862/0INF247L01CW5 127DIGDG - Motilal Oswal Nifty India 50,000.000 4,913.563 29-Jan-2026 10.5643 51,908.35 KFINTECH
+63: Defence Index Fund - Direct Growth
+64: 91061089423/0INF247L01BM8 127MGGDG - Motilal Oswal Gold and Silver 65,500.000 3,228.595 29-Jan-2026 41.3844 133,613.47 KFINTECH
+65: Passive Fund of Funds - Direct Growth
+66: 91061089423/0INF247L01445 127FMGDG - Motilal Oswal Midcap Fund - 112,500.000 975.501 29-Jan-2026 106.5496 103,939.24 KFINTECH
+67: Direct Plan Growth
+68: 91066188294/0INF247L01718 127N1GDG - Motilal Oswal Nasdaq 100 Fund 10,000.000 294.177 29-Jan-2026 49.3871 14,528.55 KFINTECH
+69: of Fund - Direct Plan Growth
+70: 488281662755/0INF204K01K15 RMFSCAGG - NIPPON INDIA SMALL CAP 367,000.000 2,088.193 29-Jan-2026 177.2533 370,139.10 KFINTECH
+71: FUND - DIRECT GROWTH PLAN GROWTH
+72: OPTION
+73: 488281662755/0INF204K01J91 RMFSCADD - NIPPON INDIA SMALL CAP 62,000.000 705.339 29-Jan-2026 94.2690 66,491.60 KFINTECH
+74: FUND - DIRECT IDCW# PLAN
+75: 15433631 INF879O01027 PP001ZG - Parag Parikh Flexi Cap Fund - 391,000.000 4,279.869 29-Jan-2026 93.9598 402,135.64 CAMS
+76: Direct Plan Growth (formerly Parag Parikh
+77: Long Term Value Fund) (Demat)
+78: 51058767311/0INF966L01689 166IBDGG - quant Small Cap Fund - Direct 83,000.000 308.477 29-Jan-2026 253.6303 78,239.11 KFINTECH
+79: Plan Growth
+80: Total 2,636,705.02 2,834,204.07
+81: Page 1 of 3
+
+--- Page 2 ---
+0: 6101-eviL
+1: 4.3V:noisreV
+2: 256421621003-SWSACSMAC
+3: Consolidated Account Summary
+4: As on 30-Jan-2026
+5: Loads and Fees
+6: 118GFD1G - Edelweiss Gold and Silver ETF Fund of Fund Direct plan Growth : Entry Load NIL, w.e.f. Sep 16 2022 Exit load upto 15 days from the date of allotment is 0.10%
+7: and thereafter NIL
+8: 127DIGDG - Motilal Oswal Nifty India Defence Index Fund - Direct Growth : Entry Load: Nil, Exit Load: 1% -If redeemed or switched out on or before 15 days from the date of
+9: allotment.Nil - If redeemed after 15 days from the date of allotment.
+10: 127FMGDG - Motilal Oswal Midcap Fund - Direct Plan Growth : Entry Load: Nil, Exit Load : 1% - If redeemed on or before 365 days from the date of allotment for Subscription
+11: received Wef 18-Mar-2024Nil - If redeemed after 365 days from the date of allotment.Entry Load: Nil, Exit Load: 1% -If redeemed or switched out on or before 15 days from the
+12: date of allotment for Subscription received till 17-Mar-2024.Nil - If redeemed after 15 days from the date of allotment.
+13: 127MGGDG - Motilal Oswal Gold and Silver Passive Fund of Funds - Direct Growth : Entry Load: Nil, Exit Load: Nil
+14: 127N1GDG - Motilal Oswal Nasdaq 100 Fund of Fund - Direct Plan Growth : Entry Load: Nil, Exit Load: 1% - If redeemed or switched out on or before 15 days from the date of
+15: allotmentNil - If redeemed after 15 days from the date of allotment.
+16: 128GCDGG - Axis Greater China Equity Fund of Fund Direct Growth : Entry Load : NIL. Exit Load: w.e.f., 11/02/2021 If redeemed / switched-out within 12 months from the date
+17: of allotment - For 10% of investment: Nil For remaining investment: 1% FIFO basis
+18: 166IBDGG - quant Small Cap Fund - Direct Plan Growth : Entry Load NIL, Exit Load - 1.00% if redeemed with in 365 days from the date of allotment.NIL if redeemed after 365
+19: days from the date of allotment of units.
+20: B303GZ - Aditya Birla Sun Life Medium Term Plan - Growth-Direct Plan (Demat) : WEF 25-Oct-2019 In respect of each purchase / switch-in of Units, upto 15% of the units may
+21: be redeemed / switched-out without any exit load from the date of allotment. Any redemption in excess of the above limit shall be subject to the following exit load:WEF 25-OCT-
+22: 2019 For redemption / switch-out of units on or before 1 year from the date of allotment 2.00% of applicable NAV.For redemption / switch-out of units after 1 year but on or before
+23: 2 years from the date of allotment - 1.00% of applicable NAV.For redemption / switch-out of units after 2 years - Nil.Note:The last date to link Aadhaar and Permanent Account
+24: Number (PAN) has been extended by the government until 31 March 2023. Kindly link your Aadhar to your PAN prior to the aforesaid deadline to avoid for higher TDS on your
+25: income distribution or capital withdrawals. Future transactions may also be restricted. For more details, please visit income tax portal. Kindly ignore if your PAN is already linked
+26: to Aadhaar. "Please ensure that your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP
+27: status, FATCA/CRS information etc. kindly update them immediately."
+28: D896 - DSP Multi Asset Allocation Fund - Direct - Growth (Demat) : Exit Load: NIL for 10% of units if redeemed/switched within 12 months, 1% for balance units. NIL after 12
+29: months. "Please ensure that your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status,
+30: FATCA/CRS information etc. kindly update them immediately."
+31: GD340 - Bandhan Small Cap Fund-Direct Plan-Growth (Demat) : "Bandhan Small Cap Fund: Entry Load: Nil Exit Load: 1% if redeemed/switched out within 1 year from the date of
+32: allotment Transaction Charges applicable for this Scheme as disclosed in SID and KIM." "Please ensure that your account information is up to date. If there are any changes to
+33: your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately."
+34: HCORGT - HDFC Focused Fund - Direct Plan - Growth Option (formerly HDFC Core and Satellite Fund) (Demat) : "*Due to change in the Scheme Name and fundamental
+35: attributes of HDFC Core & Satellite Fund w.e.f. May 23, 2018, the Scheme shall be managed as HDFC Focused 30 Fund and type of the scheme has been changed to an open-
+36: ended Equity Scheme investing inmaximum 30 stocks in large-cap, mid-cap andsmall-cap category (i.e. Multi-Cap),w.e.f 27.06.25 the scheme name changed to HDFC Focused
+37: Fund - Current Load Structure : Entry Load - Nil. Exit Load : 1% if units are redeemed/swtiched-out within 1 year; No Exit Load if units are redeemed /switched-out after 1 year
+38: from the date of investment with effect from May 08, 2015. The rate of exit load levied on units redeemed will be the rate prevailing at the time of allotment of the units. For
+39: further details visit www.hdfcfund.com (under Investor Corner) or contact any of our Investor Service Centre. GST Identification Number : 27AAATH1809A1Z9 """Please ensure
+40: that your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information
+41: etc. kindly update them immediately."""""
+42: HGFGT - HDFC Balanced Advantage Fund - Direct Plan - Growth Option (formerly HDFC Growth Fund, erstwhile HDFC Prudence Fund merged) (Demat) : *Due to change in
+43: Scheme Name and the fundamental attributes of HDFC Growth Fund and merger of HDFC Prudence Fund therein, w.e.f. June 01, 2018 (close of business hours) , the scheme
+44: shall be managed as HDFC Balanced Advantage Fund (erstwhile HDFC Prudence Fund and HDFC Growth Fund), an open-ended scheme Balanced Advantage Fund. Current
+45: Load Structure : Entry Load - Nil. Exit Load : In respect of each purchase/switch-in of units from allotment date, Nil exit load upto 15% of the units ("the limit") redeemed/switched
+46: -out; 1% if units in excess of the limit are redeemed/switched-out within 1 year. No Exit Load if units are redeemed /switched-out after 1 year. Applicable for the subscriptions
+47: made w.e.f. May 08, 2015. The rate of exit load levied on units redeemed will be the rate prevailing at the time of allotment of the units. For further details visit
+48: www.hdfcfund.com (under Investor Corner) or contact any of our Investor Service Centre. GST Identification Number : 27AAATH1809A1Z9 "Please ensure that your account
+49: information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update
+50: them immediately."
+51: HINNPT - HDFC Nifty 50 Index Fund - Direct Plan (formerly HDFC Index Fund - Nifty Plan) (Demat) : "*Due to change in the Scheme Name and fundamental attributes of
+52: HDFC Index Fund - NIFTY Plan w.e.f. May 23, 2018, the Scheme shall be managed as HDFC Nifty 50 Index Fund and type of the scheme has been changed to an open-ended
+53: scheme replicating / tracking NIFTY50 Index - Current Load Structure : Entry Load: Not Applicable. Exit Load: 0.25% if units are redeemed/swtiched-out within 3 days from the
+54: date of investment. No Exit Load if units are redeemed/switched-out after 3 days from the date of investment with effect from Sep 22, 2017. The rate of exit load levied on units
+55: redeemed will be the rate prevailing at the time of allotment of the units. For further details visit www.hdfcfund.com (under Investor Corner) or contact any of our Investor Service
+56: Centre. GST Identification Number : 27AAATH1809A1Z9" "Please ensure that your account information is up to date. If there are any changes to your KYC details like address,
+57: contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately."
+58: K123D - Kotak Midcap Fund- Direct Plan - Growth (Erstwhile Kotak Emerging Equity Scheme) (Demat) : Entry Load - Nil, Exit Load (w.e.f. 13-May-2020) - For redemption/switch
+59: out of units upto 10% of the initial investment amount (limit) purchased or switched-in within 1 year from the date of allotment - NIL. If Units redeemed or switched out are in
+60: excess of the limit within 1 year from the date of allotment : 1%. If units redeemed or switched out on or after 1 year from the date of allotment: NIL. "Please ensure that your
+61: account information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc.
+62: kindly update them immediately."
+63: K134DD - Kotak Contra Fund - Direct Plan - IDCW# ( Erstwhile Kotak India EQ Contra Scheme) (Demat) : Entry Load - Nil, Exit Load (w.e.f. 01-Sep-2022) - For
+64: redemption/switch out within 90 days from the date of allotment 1% If units redeemed or switched out on or after 90 days from the date of allotment - Nil "Please ensure that your
+65: account information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc.
+66: kindly update them immediately."
+67: P8042 - ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan - Growth (formerly ICICI Prudential Focused Bluechip Equity Fund) (Non-Demat) : Current : Entry
+68: Load - Nil. Exit Load w.e.f 16-Jul-2010 [including SIP,STP,SWP&Micro(SIP) wherever available] - If redeemed or switched out upto 1 year - 1.0%, > 1 year - Nil. For lumpsum
+69: investment/switch in, the applicable load will be based on the load structure as on the date of investment/applicable NAV date. For SIP/STP transactions, load for each
+70: transaction is based on the applicable load structure as on the registration date. For details, please refer to SID and Addenda available on www.icicipruamc.com. Scheme Name
+71: of ICICI Prudential Bluechip Fund has been changed to ICICI Prudential Large Cap Fund with effect from June 16, 2025. "Please ensure that your account information is up to
+72: date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately."
+73: P8104 - ICICI Prudential Banking and PSU Debt Fund - Direct Plan - Growth (Demat) : Current: Entry Load - Nil. Exit Load w.e.f 05-Oct-2015 [including SIP,STP,SWP&Micro(SIP)
+74: wherever available] if redeemed or switched out - Nil. For lumpsum investment/switch in, the applicable load will be based on the load structure as on the date of
+75: investment/applicable NAV date. For SIP/STP transactions, load for each transaction is based on the applicable load structure as on the registration date. For details, please refer
+76: to SID and Addenda available on www.icicipruamc.com. "Please ensure that your account information is up to date. If there are any changes to your KYC details like address,
+77: contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately."
+78: P8189 - ICICI Prudential Nifty 50 Index Fund - Direct Plan Growth (Non-Demat) : Current: Entry Load - Nil. Exit Load w.e.f 05-Oct-2015 [including SIP,STP,SWP&Micro(SIP)
+79: wherever available] if redeemed or switched out - Nil. For lumpsum investment/switch in, the applicable load will be based on the load structure as on the date of
+80: investment/applicable NAV date. For SIP/STP transactions, load for each transaction is based on the applicable load structure as on the registration date. For details, please refer
+81: to SID and Addenda available on www.icicipruamc.com. "Please ensure that your account information is up to date. If there are any changes to your KYC details like address,
+82: contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately."
+83: Page 2 of 3
+
+--- Page 3 ---
+0: 6101-eviL
+1: 4.3V:noisreV
+2: 256421621003-SWSACSMAC
+3: Consolidated Account Summary
+4: As on 30-Jan-2026
+5: Loads and Fees
+6: PP001ZG - Parag Parikh Flexi Cap Fund - Direct Plan Growth (formerly Parag Parikh Long Term Value Fund) (Demat) : Exit Load: Investors are requested to note that with effect
+7: from November 15, 2021, all new/prospective investments (including SIP/STP and SWP registered) in respect of each purchase / switch-in of units, 10% of the units may be
+8: redeemed without any exit load from the date of allotment made on or after the aforesaid effective date. Please refer Notice cum addendum dated November 11, 2021 available
+9: on website https://amc.ppfas.com/downloads/addendum/ Any redemption or switch out in excess of the aforesaid limit shall be subject to the following exit load : Exit Load of 2%
+10: is applicable, if Units are redeemed/switched-out on or before 365 days from the date of allotment, 1% if redeemed/Switched-out after 365 days but on or before 730 days from
+11: the date allotment and thereafter there is no exit load. "Effective from July 01, 2020, stamp duty @ 0.005% will be deducted from the Net investment amount. Units will be
+12: allotted for the balance amount. "Please ensure that your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation,
+13: income, PEP status, FATCA/CRS information etc. kindly update them immediately."
+14: RMFSCADD - NIPPON INDIA SMALL CAP FUND - DIRECT IDCW# PLAN : For subscriptions received w.e.f. Mar 22nd, 2024, 1% exit load shall be applicable for units
+15: redeemed on or before completion of one year from the date of allotment of units.And Nil thereafter. Redemption of units would be done on First in First out Basis (FIFO).For
+16: subscriptions prior to Mar 21st, 2024, Exit load levied on the Units redeemed will be the rate prevailing at the time of the allotment of the Units.For Special products registrations,
+17: load for each transaction is based on the load structure applicable as on the registration date.
+18: RMFSCAGG - NIPPON INDIA SMALL CAP FUND - DIRECT GROWTH PLAN GROWTH OPTION : For subscriptions received w.e.f. Mar 22nd, 2024, 1% exit load shall be
+19: applicable for units redeemed on or before completion of one year from the date of allotment of units.And Nil thereafter. Redemption of units would be done on First in First out
+20: Basis (FIFO).For subscriptions prior to Mar 21st, 2024, Exit load levied on the Units redeemed will be the rate prevailing at the time of the allotment of the Units.For Special
+21: products registrations, load for each transaction is based on the load structure applicable as on the registration date.
+22: #IDCW - Income Distribution cum Capital Withdrawal
+23: Page 3 of 3
+
