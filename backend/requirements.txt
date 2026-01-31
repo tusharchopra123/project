@@ -13,3 +13,10 @@ requests
 sqlalchemy
 aiosqlite
 python-dotenv
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+yfinance
+numpy
+openpyxl
+httpx
