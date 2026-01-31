@@ -22,7 +22,8 @@ export default function DashboardPage() {
             // Fetch from Backend
             const fetchPortfolio = async () => {
                 try {
-                    const res = await fetch('http://localhost:8000/portfolio/', {
+                    const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+                    const res = await fetch(`${baseUrl}/portfolio/`, {
                         headers: {
                             // SECURE: Send the Google ID Token
                             'Authorization': `Bearer ${(session as any).id_token}`

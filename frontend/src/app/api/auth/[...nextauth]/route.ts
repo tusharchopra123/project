@@ -13,8 +13,8 @@ const handler = NextAuth({
         async signIn({ user, account, profile }) {
             try {
                 // Sync user with backend
-                // Using localhost:8000 directly since this runs on the server
-                const res = await fetch('http://127.0.0.1:8000/auth/login', {
+                const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+                const res = await fetch(`${baseUrl}/auth/login`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({

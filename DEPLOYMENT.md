@@ -24,6 +24,7 @@
     *   `DATABASE_URL`: `postgresql://[user]:[password]@[host]/neondb?sslmode=require`
         > [!NOTE]
         > **Neon.tech** is recommended because its free tier supports IPv4, which is required by Render.
+    *   `ALLOWED_ORIGINS`: `https://your-frontend.vercel.app` (The URL Vercel gives you).
     *   `GOOGLE_CLIENT_ID`: (Your Google Client ID).
     *   `GOOGLE_CLIENT_SECRET`: (Your Google Client Secret).
 
@@ -43,6 +44,7 @@
     *   `NEXTAUTH_SECRET`: (Generate a random string, e.g., `openssl rand -base64 32`).
     *   `NEXTAUTH_URL`: `https://your-project-name.vercel.app` (The domain Vercel gives you).
     *   `BACKEND_URL`: `https://your-backend-name.onrender.com` (The URL Render gives you).
+    *   `NEXT_PUBLIC_API_URL`: `https://your-backend-name.onrender.com` (Same as BACKEND_URL).
 
 ---
 
@@ -54,6 +56,7 @@ Once both are deployed:
 2.  Edit your OAuth 2.0 Client.
 3.  **Authorized Javascript Origins**: Add your Frontend URL (`https://your-frontend.vercel.app`).
 4.  **Authorized Redirect URIs**: Add your Callback URL (`https://your-frontend.vercel.app/api/auth/callback/google`).
+
 
 ---
 
