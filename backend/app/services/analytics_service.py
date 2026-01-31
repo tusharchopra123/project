@@ -76,12 +76,9 @@ def classify_fund_category(scheme_category: str) -> str:
 def fetch_benchmark_data():
     """Fetch Nifty 50 data from yfinance"""
     try:
-        # Create session with headers to avoid blocks
-        session = requests.Session()
-        session.headers.update(HEADERS)
-        
         # Fetch max history to allow long fund lives
-        df = yf.download(BENCHMARK_TICKER, session=session, period="max", progress=False)
+        # Note: We let yfinance handle the session/headers itself to avoid curl_cffi errors
+        df = yf.download(BENCHMARK_TICKER, period="max", progress=False)
         if df is None or df.empty:
             print(f"DEBUG: yfinance returned empty data for {BENCHMARK_TICKER}")
             return None

@@ -20,3 +20,4 @@ yfinance
 numpy
 openpyxl
 httpx
+curl_cffi

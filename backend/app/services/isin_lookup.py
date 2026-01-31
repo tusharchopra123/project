@@ -15,7 +15,7 @@ def _fetch_isin_mapping():
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
-        response = requests.get(AMFI_NAV_URL, headers=headers, timeout=15)
+        response = requests.get(AMFI_NAV_URL, headers=headers, timeout=30)
         response.raise_for_status()
         print(f"DEBUG: Successfully fetched AMFI data ({len(response.text)} bytes)")
         
