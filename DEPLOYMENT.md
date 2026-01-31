@@ -3,7 +3,7 @@
 ## 1. Hosting Architecture
 *   **Frontend (Next.js)**: Host on **Vercel** (Free Tier).
 *   **Backend (FastAPI)**: Host on **Render** (Free Tier) or **Railway** (Trial).
-*   **Database (Postgres)**: Host on **Supabase** (Free Tier).
+*   **Database (Postgres)**: Host on **Neon.tech** (Free Tier) - *Recommended for Render compatibility*.
 
 ---
 
@@ -21,7 +21,9 @@
         > Ensure you use `--port` and NOT `-p`. Uvicorn does not support the shorthand `-p` flag.
 4.  **Environment Variables** (Add these in the "Environment" tab):
     *   `PYTHON_VERSION`: `3.11.0` (Recommended)
-    *   `DATABASE_URL`: `postgresql://postgres:password@host:5432/postgres` (Copy from Supabase).
+    *   `DATABASE_URL`: `postgresql://[user]:[password]@[host]/neondb?sslmode=require`
+        > [!NOTE]
+        > **Neon.tech** is recommended because its free tier supports IPv4, which is required by Render.
     *   `GOOGLE_CLIENT_ID`: (Your Google Client ID).
     *   `GOOGLE_CLIENT_SECRET`: (Your Google Client Secret).
 
@@ -61,6 +63,15 @@ Once both are deployed:
 *   The code handles both automatically!
 
 ## 5. Troubleshooting
+
+### `OSError: [Errno 101] Network is unreachable` (Database Connection)
+This happens because Render (Free Tier) only supports IPv4, while Supabase's free direct connection is IPv6-only. 
+**Fix**: Switch to **Neon.tech**. 
+1. Create a free account at [neon.tech](https://neon.tech).
+2. Create a new project.
+3. Copy the **Connection String** (Postgres).
+4. Update the `DATABASE_URL` in your Render Environment Variables.
+5. Neon supports IPv4 by default, so it works perfectly on Render for free.
 
 ### `uvicorn: error: no such option: -p`
 This happens if you use `-p` instead of `--port` in the Start Command. Render often defaults to generic commands; ensure you manually set it to `--port 10000`.

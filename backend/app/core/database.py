@@ -26,6 +26,10 @@ if DATABASE_URL:
     elif DATABASE_URL.startswith("postgresql://"):
         DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+asyncpg://", 1)
 
+    # Sanitize query parameters for asyncpg (it expects 'ssl' instead of 'sslmode')
+    if "sslmode=require" in DATABASE_URL:
+        DATABASE_URL = DATABASE_URL.replace("sslmode=require", "ssl=require")
+
 print(f"DEBUG: Connecting to Database -> {'POSTGRES (Cloud)' if 'postgres' in DATABASE_URL else 'SQLITE (Local)'}")
 # print(f"DEBUG: URL Prefix -> {DATABASE_URL.split('://')[0] if '://' in DATABASE_URL else 'INVALID'}") # Safe debug
 
