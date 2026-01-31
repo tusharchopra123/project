@@ -11,12 +11,18 @@ BENCHMARK_TICKER = "^NSEI"
 RISK_FREE_RATE = 0.06
 TRADING_DAYS = 252
 
+# Common headers to avoid blocks
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'application/json, text/plain, */*'
+}
+
 @lru_cache(maxsize=100)
 def fetch_fund_nav(scheme_code: str):
     """Fetch historical NAV and metadata from mfapi.in"""
     try:
         url = f"https://api.mfapi.in/mf/{scheme_code}"
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, headers=HEADERS, timeout=10)
         response.raise_for_status()
         data = response.json()
         
@@ -69,9 +75,13 @@ def classify_fund_category(scheme_category: str) -> str:
 def fetch_benchmark_data():
     """Fetch Nifty 50 data from yfinance"""
     try:
+        # Create session with headers to avoid blocks
+        session = requests.Session()
+        session.headers.update(HEADERS)
+        
         # Fetch max history to allow long fund lives
-        df = yf.download(BENCHMARK_TICKER, period="max", progress=False)
-        if df.empty:
+        df = yf.download(BENCHMARK_TICKER, session=session, period="max", progress=False)
+        if df is None or df.empty:
             return None
         
         # Keep only Close

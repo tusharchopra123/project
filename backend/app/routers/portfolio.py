@@ -14,6 +14,7 @@ from ..core.database import get_db
 from ..models import PortfolioSnapshot, User
 import datetime
 import math
+from starlette.concurrency import run_in_threadpool
 
 def clean_nans(obj):
     if isinstance(obj, float):
@@ -81,9 +82,9 @@ async def analyze_report(
         if not data:
              raise HTTPException(status_code=400, detail="Could not extract any transactions.")
 
-        # 2. Analyze
+        # 2. Analyze (Heavier sync tasks run in threadpool)
         df = pd.DataFrame(data)
-        result = analyze_portfolio(df)
+        result = await run_in_threadpool(analyze_portfolio, df)
         
         # Clean NaNs
         result = clean_nans(result)

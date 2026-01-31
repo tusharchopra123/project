@@ -12,7 +12,10 @@ def _fetch_isin_mapping():
     """Fetch AMFI NAV data and build ISIN -> {name, code} mapping"""
     isin_map = {}
     try:
-        response = requests.get(AMFI_NAV_URL, timeout=10)
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
+        response = requests.get(AMFI_NAV_URL, headers=headers, timeout=15)
         response.raise_for_status()
         
         for line in response.text.split('\n'):
