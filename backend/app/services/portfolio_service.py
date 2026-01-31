@@ -158,7 +158,7 @@ async def analyze_portfolio(df: pd.DataFrame):
                     from .analytics_service import calculate_analytics
                     
                     if best_isin:
-                        details = get_scheme_details(best_isin)
+                        details = await get_scheme_details(best_isin)
                         if details and details.get('code'):
                             analytics = calculate_analytics(details['code'])
                             if analytics:
