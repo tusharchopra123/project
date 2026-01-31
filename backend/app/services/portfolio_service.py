@@ -3,7 +3,7 @@ import pandas as pd
 from pyxirr import xirr
 from datetime import date, timedelta
 import numpy as np
-from .isin_lookup import get_scheme_details
+from .isin_lookup import get_scheme_details, clean_scheme_name
 
 def calculate_portfolio_xirr(transactions: list, current_value: float = 0.0):
     """Calculates XIRR given a list of transactions."""
