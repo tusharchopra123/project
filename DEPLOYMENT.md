@@ -17,6 +17,8 @@
     *   **Root Directory**: `backend` (Important! Since your app is in a subfolder).
     *   **Build Command**: `pip install -r requirements.txt`
     *   **Start Command**: `uvicorn app.main:app --host 0.0.0.0 --port 10000`
+        > [!IMPORTANT]
+        > Ensure you use `--port` and NOT `-p`. Uvicorn does not support the shorthand `-p` flag.
 4.  **Environment Variables** (Add these in the "Environment" tab):
     *   `PYTHON_VERSION`: `3.11.0` (Recommended)
     *   `DATABASE_URL`: `postgresql://postgres:password@host:5432/postgres` (Copy from Supabase).
@@ -57,3 +59,11 @@ Once both are deployed:
 *   **Locally**: The app runs on `localhost` with SQLite (Database file).
 *   **In Cloud**: The app runs on Vercel/Render with Supabase (Cloud Database).
 *   The code handles both automatically!
+
+## 5. Troubleshooting
+
+### `uvicorn: error: no such option: -p`
+This happens if you use `-p` instead of `--port` in the Start Command. Render often defaults to generic commands; ensure you manually set it to `--port 10000`.
+
+### `ModuleNotFoundError: No module named 'sqlalchemy'`
+Ensure your `requirements.txt` includes `sqlalchemy`, `aiosqlite`, and `python-dotenv`. If you added them recently, trigger a "Manual Deploy" with "Clear Build Cache" on Render.
