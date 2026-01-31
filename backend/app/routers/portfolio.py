@@ -82,9 +82,9 @@ async def analyze_report(
         if not data:
              raise HTTPException(status_code=400, detail="Could not extract any transactions.")
 
-        # 2. Analyze (Heavier sync tasks run in threadpool)
+        # 2. Analyze (Async lookups handled within)
         df = pd.DataFrame(data)
-        result = await run_in_threadpool(analyze_portfolio, df)
+        result = await analyze_portfolio(df)
         
         # Clean NaNs
         result = clean_nans(result)
