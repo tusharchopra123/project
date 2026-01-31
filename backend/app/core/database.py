@@ -27,8 +27,13 @@ if DATABASE_URL:
         DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+asyncpg://", 1)
 
     # Sanitize query parameters for asyncpg (it expects 'ssl' instead of 'sslmode')
-    if "sslmode=require" in DATABASE_URL:
-        DATABASE_URL = DATABASE_URL.replace("sslmode=require", "ssl=require")
+    if "sslmode=" in DATABASE_URL:
+        DATABASE_URL = DATABASE_URL.replace("sslmode=", "ssl=")
+    
+    # Strip unsupported parameters like 'channel_binding' (common in Neon/Supabase strings)
+    if "channel_binding=" in DATABASE_URL:
+        import re
+        DATABASE_URL = re.sub(r'[&?]channel_binding=[^&]*', '', DATABASE_URL)
 
 print(f"DEBUG: Connecting to Database -> {'POSTGRES (Cloud)' if 'postgres' in DATABASE_URL else 'SQLITE (Local)'}")
 # print(f"DEBUG: URL Prefix -> {DATABASE_URL.split('://')[0] if '://' in DATABASE_URL else 'INVALID'}") # Safe debug
