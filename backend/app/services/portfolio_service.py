@@ -74,7 +74,7 @@ def is_sip_active(transactions: list) -> bool:
             
     return False
 
-def analyze_portfolio(df: pd.DataFrame):
+async def analyze_portfolio(df: pd.DataFrame):
     """
     Performs basic analysis on the portfolio dataframe.
     """
@@ -134,12 +134,12 @@ def analyze_portfolio(df: pd.DataFrame):
                     print(f"Date calculation error: {e}")
 
             if scheme_current_val > 0 or net_invested > 0:
-                scheme_name = best_desc  # Default to description
+                scheme_name = clean_scheme_name(best_desc)  # Clean the fallback name
                 try:
                     if best_isin:
-                        details = get_scheme_details(best_isin)
+                        details = await get_scheme_details(best_isin)
                         if details and details.get('name'):
-                            scheme_name = details['name']
+                            scheme_name = details['name'] # Already cleaned by get_scheme_details
                 except:
                     pass
                 
@@ -184,7 +184,7 @@ def analyze_portfolio(df: pd.DataFrame):
             for s in held_schemes:
                 isin = s.get('isin')
                 if isin:
-                    details = get_scheme_details(isin)
+                    details = await get_scheme_details(isin)
                     if details and details.get('code'):
                         fund_result = fetch_fund_nav(details['code'])
                         if fund_result:
@@ -220,7 +220,7 @@ def analyze_portfolio(df: pd.DataFrame):
                     benchmark_xirr = calculate_benchmark_xirr(tx_rows)
                     print(f"Calculated Benchmark XIRR: {benchmark_xirr}")
                     
-                    growth_data = calculate_growth_comparison(tx_rows)
+                    growth_data = await calculate_growth_comparison(tx_rows)
                     growth_chart = growth_data.get('chart', [])
                     portfolio_stats = growth_data.get('portfolio_stats', {})
                     benchmark_stats = growth_data.get('benchmark_stats', {})

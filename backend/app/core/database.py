@@ -66,7 +66,7 @@ async def get_db():
 
 # Initialize DB (create tables)
 # Import models to ensure they are registered
-from ..models import User, PortfolioSnapshot
+from ..models import User, PortfolioSnapshot, ISINMapping
 
 async def init_db():
     async with engine.begin() as conn:

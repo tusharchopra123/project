@@ -68,7 +68,7 @@ async def analyze_report(
                 tmp_path = tmp.name
             
             try:
-                data = parse_cam_pdf(tmp_path, password)
+                data = await parse_cam_pdf(tmp_path, password)
             except ValueError as ve:
                 raise HTTPException(status_code=400, detail=str(ve))
             finally:

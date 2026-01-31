@@ -4,7 +4,7 @@ import pandas as pd
 import re
 from .isin_lookup import get_scheme_name as lookup_isin_name
 
-def parse_cam_pdf(file_path: str, password: str = None):
+async def parse_cam_pdf(file_path: str, password: str = None):
     print(f"Opening PDF: {file_path}")
     items = []
     
@@ -54,7 +54,7 @@ def parse_cam_pdf(file_path: str, password: str = None):
                         current_fund = clean_name.strip().rstrip('-').strip()
                         
                         # Always try to get official name from AMFI data
-                        amfi_name = lookup_isin_name(current_isin)
+                        amfi_name = await lookup_isin_name(current_isin)
                         if amfi_name:
                             current_fund = amfi_name
                         

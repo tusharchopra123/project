@@ -255,7 +255,7 @@ def calculate_benchmark_xirr(transactions: list):
     except:
         return 0.0
 
-def calculate_growth_comparison(transactions: list, held_schemes: dict = None):
+async def calculate_growth_comparison(transactions: list, held_schemes: dict = None):
     """
     Generate daily series for Portfolio Value vs Benchmark Value.
     """
@@ -282,7 +282,7 @@ def calculate_growth_comparison(transactions: list, held_schemes: dict = None):
             
     fund_dfs = {}
     for isin in unique_isins:
-        details = get_scheme_details(isin)
+        details = await get_scheme_details(isin)
         if details:
             code = details['code']
             fund_result = fetch_fund_nav(code)
