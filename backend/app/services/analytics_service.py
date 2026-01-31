@@ -25,6 +25,7 @@ def fetch_fund_nav(scheme_code: str):
         response = requests.get(url, headers=HEADERS, timeout=10)
         response.raise_for_status()
         data = response.json()
+        print(f"DEBUG: Successfully fetched MF data for Scheme {scheme_code}")
         
         if not data.get('data'):
             return None
@@ -45,7 +46,7 @@ def fetch_fund_nav(scheme_code: str):
             'category': category
         }
     except Exception as e:
-
+        print(f"DEBUG: Error fetching MF data for {scheme_code} -> {e}")
         return None
 
 def classify_fund_category(scheme_category: str) -> str:
@@ -82,14 +83,16 @@ def fetch_benchmark_data():
         # Fetch max history to allow long fund lives
         df = yf.download(BENCHMARK_TICKER, session=session, period="max", progress=False)
         if df is None or df.empty:
+            print(f"DEBUG: yfinance returned empty data for {BENCHMARK_TICKER}")
             return None
         
         # Keep only Close
         df = df[['Close']]
         df.columns = ['benchmark_nav']
+        print(f"DEBUG: Successfully fetched benchmark data ({len(df)} rows)")
         return df
     except Exception as e:
-
+        print(f"DEBUG: Error fetching benchmark data -> {e}")
         return None
 
 def calculate_analytics(scheme_code: str):

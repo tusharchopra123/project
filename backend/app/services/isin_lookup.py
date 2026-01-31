@@ -17,6 +17,7 @@ def _fetch_isin_mapping():
         }
         response = requests.get(AMFI_NAV_URL, headers=headers, timeout=15)
         response.raise_for_status()
+        print(f"DEBUG: Successfully fetched AMFI data ({len(response.text)} bytes)")
         
         for line in response.text.split('\n'):
             parts = line.split(';')
@@ -30,6 +31,7 @@ def _fetch_isin_mapping():
                     if isin and isin.startswith('INF') and len(isin) == 12:
                         isin_map[isin] = {"name": scheme_name, "code": scheme_code}
     except Exception as e:
+        print(f"DEBUG: Error fetching AMFI data -> {e}")
         pass
 
     
