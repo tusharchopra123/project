@@ -6,6 +6,10 @@ from ..core.security import decode_access_token
 
 class AuthMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next):
+        # Allow preflight OPTIONS requests to pass through
+        if request.method == "OPTIONS":
+            return await call_next(request)
+
         # Public endpoints that don't need auth
         public_paths = [
             "/docs", 
